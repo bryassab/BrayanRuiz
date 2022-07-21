@@ -1,0 +1,362 @@
+.images {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+}
+
+.inicio {
+    margin: auto;
+
+}
+
+.img {
+    position: relative;
+    display: flex;
+    border: solid #000;
+
+
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+}
+
+.nombre {
+    background: rgb(255, 255, 255, 0.30);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width: 160px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.description {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    font-family: cursive;
+    justify-content: center;
+    background: #000;
+}
+
+.about {
+
+    border: 2px solid #000;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    font-family: cursive;
+}
+
+.poco {
+    margin-top: 10%;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+.description1 {
+    font-size: 18px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 5%;
+
+    color: white;
+
+
+}
+
+.description2 {
+    font-size: 18px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 5%;
+
+    color: white;
+
+}
+
+.description3 {
+    font-size: 18px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 5%;
+
+    color: white;
+}
+
+.fotos {
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+
+}
+
+.sideShow {
+    position: relative;
+    padding-top: 9%;
+    width: 70%;
+    height: auto;
+    margin: auto auto auto auto;
+}
+
+
+
+.brain {
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 4%;
+
+}
+
+.brain h2 {
+    margin: 0 0 0;
+    padding: 0;
+    font-size: 12px;
+    color: #000;
+}
+
+.skills {
+    margin-left: 10%;
+    position: relative;
+    width: 100%;
+
+
+
+}
+
+.progress {
+    width: 70%;
+    height: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: left;
+    line-height: 14px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.progress .percent {
+    text-align: right;
+    color: rgb(0, 0, 0);
+    padding-right: 10px;
+    border-right: 2px solid #fff;
+    background: linear-gradient(45deg, rgb(119, 119, 119) 25%, transparent 25%, transparent 50%, rgb(110, 110, 110) 50%, rgb(161, 161, 161) 75%, transparent 75%, transparent);
+    background-size: 30px 30px;
+    font-size: large;
+
+}
+
+.informe {
+    background: #000;
+    position: relative;
+    color: #fff;
+    font-family: cursive;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.cards {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
+    flex-direction: column;
+}
+
+.cards .card {
+    position: relative;
+    width: 300px;
+    height: 244px;
+    background: #000000;
+    margin: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cards .card .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 100000;
+    transform-origin: top;
+}
+
+.cards .card:hover .imgBx {
+    transform: translateY(10px) scale(0.5);
+}
+
+.cards .card .imgBx .millonarie {
+    top: 0;
+    left: 0;
+    width: 100%;
+    left: 100%;
+    object-fit: cover;
+}
+
+.cards .card .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+
+}
+
+.cards .card:hover .content {
+    transform: translateY(0);
+
+}
+
+.cards .card .content .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.cards .card .content .details h2 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: -6px;
+
+}
+
+
+.icons {
+    position: relative;
+    display: flex;
+    margin-top: 0;
+}
+
+.icons li {
+    list-style: none;
+    margin: 2px;
+}
+
+.icons li a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5e5e5e;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+
+.icons li a:hover {
+    transform: rotate(360deg);
+    background: #4fc3dc;
+
+}
+
+.descripcard h3 {
+    color: white;
+    display: grid;
+    position: relative;
+    margin-left: auto;
+    margin-top: 50%;
+    width: 270px;
+    font-family: cursive;
+    font-size: smaller;
+}
+
+.margen {
+    margin-bottom: 20px;
+}
+
+.informe .titulo {
+    position: relative;
+    background: #ffffff;
+    text-align: center;
+    margin-top: 5%;
+    height: 8vh;
+    border: 2px solid #000;
+
+}
+
+.informe .titulo h2 {
+    position: relative;
+    color: #000;
+
+
+}
+
+.informe .informacion {
+
+    position: relative;
+    width: 86%;
+    height: 50%;
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 14%;
+
+
+}
+
+.informe .informacion h3 {
+    font-size: 18px;
+    width: 80%;
+    height: 80%;
+}
+
+.ttitulo {
+    text-align: center;
+    margin-top: 1%;
+    height: 8vh;
+    background: #fff;
+    font-family: cursive;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.final {
+    background: #000;
+
+}
+
+.final .informacionFinal {
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.final .informacionFinal h3 {
+    font-size: 18px;
+}

@@ -1,0 +1,66 @@
+.iconss {
+    position: relative;
+    display: flex;
+    margin-top: 0;
+}
+
+.iconss li {
+    list-style: none;
+
+}
+
+.iconss li a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5e5e5e;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+
+.iconss li a:hover {
+    transform: rotate(360deg);
+    background: #8a8b8b;
+
+}
+
+.iiconss {
+    position: relative;
+    display: flex;
+    margin-top: 0;
+}
+
+.iiconss li {
+    list-style: none;
+
+}
+
+.iiconss li a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5e5e5e;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 30px;
+    margin-left: 0;
+
+}
+
+.iiconss li a:hover {
+
+    background: #8a8b8b;
+
+}
