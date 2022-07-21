@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/BrayanRuiz/static/css/main.19db4e40.css",
+    "main.js": "/BrayanRuiz/static/js/main.0158949e.js",
+    "static/js/787.ae0d8d37.chunk.js": "/BrayanRuiz/static/js/787.ae0d8d37.chunk.js",
+    "static/media/img3.jpg": "/BrayanRuiz/static/media/img3.ba3251842ad04829285f.jpg",
+    "static/media/img4.jpg": "/BrayanRuiz/static/media/img4.4820c933f8852d13afc0.jpg",
+    "static/media/img1.jpg": "/BrayanRuiz/static/media/img1.d9b6b6f26f7b359fed6d.jpg",
+    "static/media/img5.jpg": "/BrayanRuiz/static/media/img5.3e61adaa1066dff91152.jpg",
+    "static/media/img.jpg": "/BrayanRuiz/static/media/img.8c58af1ba1f0bc491c85.jpg",
+    "static/media/img2.jpg": "/BrayanRuiz/static/media/img2.a288a11cfc6df8f49167.jpg",
+    "static/media/millonarie.jpeg": "/BrayanRuiz/static/media/millonarie.ff23c99a4d1aff2c7652.jpeg",
+    "static/media/Brayan Ruiz Hv..pdf": "/BrayanRuiz/static/media/Brayan Ruiz Hv..d5cef1c2a978113d7265.pdf",
+    "static/media/Aviajes.jpeg": "/BrayanRuiz/static/media/Aviajes.f25842d69baf4604a4b2.jpeg",
+    "index.html": "/BrayanRuiz/index.html",
+    "main.19db4e40.css.map": "/BrayanRuiz/static/css/main.19db4e40.css.map",
+    "main.0158949e.js.map": "/BrayanRuiz/static/js/main.0158949e.js.map",
+    "787.ae0d8d37.chunk.js.map": "/BrayanRuiz/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19db4e40.css",
+    "static/js/main.0158949e.js"
+  ]
+}
