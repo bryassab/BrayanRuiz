@@ -14,25 +14,15 @@ function App() {
   return (
     <>
 
-      <Router>
-
-
+      <Router basename='/BrayanRuiz'>
         <div>
           <Routes>
-
             <Route path="/" >
               <Route path='/' element={<Home />} />
               <Route path='/.pdf' element={<Pdf />} />
-
-
             </Route>
-
-
           </Routes>
-
-
         </div>
-
       </Router>
     </>
   );

@@ -18,18 +18,13 @@ import { faPager, faHeart } from '@fortawesome/free-solid-svg-icons'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NAvbar from '../Nab/Navbar';
 
-
 export default function Home() {
-
-
-
-
-
-
     return (
         <><div>
             <NAvbar />
-            <Grid container>
+            <Grid container sx={{
+                backgroundColor: '#ffff'
+            }}>
                 <Grid item xs={12} sm={12}>
                     <Box border={0}>
                         <section className='images' id='Home'>
@@ -41,7 +36,7 @@ export default function Home() {
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <Box border={2}>
+                    <Box border={0}>
                         <section id='About'>
                             <div className='about'>
                                 <h1 className='poco'> </h1>
@@ -58,7 +53,7 @@ export default function Home() {
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <Box border={2} borderColor={'white'}>
+                    <Box border={0} >
                         <div className='fotos'>
                             <div className='sideShow'>
                                 <Carousel>
@@ -118,7 +113,7 @@ export default function Home() {
                                     <div className='progress'>
                                         <div className='percent' style={{ width: '65%' }}>65%</div>
                                     </div>
-                                    <h2>Phyton</h2>
+                                    <h2>Python</h2>
                                 </div>
                                 <div className='skills'>
                                     <div className='progress'>
