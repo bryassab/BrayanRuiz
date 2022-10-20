@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BrayanRuiz/static/css/main.beab1121.css",
-    "main.js": "/BrayanRuiz/static/js/main.afe3e4df.js",
+    "main.js": "/BrayanRuiz/static/js/main.ae9bb186.js",
     "static/js/787.ae0d8d37.chunk.js": "/BrayanRuiz/static/js/787.ae0d8d37.chunk.js",
     "static/media/img3.jpg": "/BrayanRuiz/static/media/img3.ba3251842ad04829285f.jpg",
     "static/media/img4.jpg": "/BrayanRuiz/static/media/img4.4820c933f8852d13afc0.jpg",
@@ -14,11 +14,11 @@
     "static/media/Aviajes.jpeg": "/BrayanRuiz/static/media/Aviajes.f25842d69baf4604a4b2.jpeg",
     "index.html": "/BrayanRuiz/index.html",
     "main.beab1121.css.map": "/BrayanRuiz/static/css/main.beab1121.css.map",
-    "main.afe3e4df.js.map": "/BrayanRuiz/static/js/main.afe3e4df.js.map",
+    "main.ae9bb186.js.map": "/BrayanRuiz/static/js/main.ae9bb186.js.map",
     "787.ae0d8d37.chunk.js.map": "/BrayanRuiz/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.beab1121.css",
-    "static/js/main.afe3e4df.js"
+    "static/js/main.ae9bb186.js"
   ]
 }
