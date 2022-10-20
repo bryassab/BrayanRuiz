@@ -25,7 +25,7 @@ export default function NAvbar() {
                     <Nav>
                         <Navbar.Brand>CV</Navbar.Brand>
                         <ul className='iiconss'>
-                            <li><a href='https://docdro.id/gIGmx9W' target='_blank'><FontAwesomeIcon icon={faFilePdf} /></a> </li>
+                            <li><a href='https://docdro.id/l1kxr4h' target='_blank'><FontAwesomeIcon icon={faFilePdf} /></a> </li>
                         </ul>
                     </Nav>
                     <Nav>
