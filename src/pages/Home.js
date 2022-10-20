@@ -97,78 +97,20 @@ export default function Home() {
                     <Box border={0} >
                         <section id='Conocimientos'>
                             <div className='brain'>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '80%' }}>80%</div>
-                                    </div>
-                                    <h2>C</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '80%' }}>80%</div>
-                                    </div>
-                                    <h2>C++</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '65%' }}>65%</div>
-                                    </div>
-                                    <h2>Python</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '60%' }}>60%</div>
-                                    </div>
-                                    <h2>Javascript</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '30%' }}>30%</div>
-                                    </div>
-                                    <h2>SQL</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '20%' }}>20%</div>
-                                    </div>
-                                    <h2>MySQL</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '70%' }}>70%</div>
-                                    </div>
-                                    <h2>React</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '30%' }}>30%</div>
-                                    </div>
-                                    <h2>PHP</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '40%' }}>40%</div>
-                                    </div>
-                                    <h2>MONGOdb</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '70%' }}>70%</div>
-                                    </div>
-                                    <h2>CSS</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '70%' }}>70%</div>
-                                    </div>
-                                    <h2>HTML</h2>
-                                </div>
-                                <div className='skills'>
-                                    <div className='progress'>
-                                        <div className='percent' style={{ width: '50%' }}>50%</div>
-                                    </div>
-                                    <h2>BOOTSTRAP</h2>
-                                </div>
+                                <ul className='lista'>
+                                    <li>C</li>
+                                    <li>C++</li>
+                                    <li>Python</li>
+                                    <li>Spring Boot</li>
+                                    <li>Javascript</li>
+                                    <li>SQL</li>
+                                    <li>MySQL</li>
+                                    <li>MONGOdb</li>
+                                    <li>Css</li>
+                                    <li>HTML</li>
+                                    <li>Bootstrap</li>
+                                    <li>React</li>
+                                </ul>
                             </div>
                         </section>
                     </Box>
